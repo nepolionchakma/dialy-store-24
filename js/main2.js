@@ -33,7 +33,7 @@ function displayAllProduct(all) {
             <div class="card-actions mt-4 justify-center">
             </div>
             <p class='my-6 text-start'>${descriptionSlice}</p>
-                <h4><a href="single-product.html?id=${data.id}"><button class="btn bg-green-600 text-white" onclick="idFilter(${data.id})">Details23</button></a></h4>
+                <h4><a href="single-product.html?id=${data.id}"><button class="btn bg-green-600 text-white" onclick="idFilter(${data.id})">Details Product</button></a></h4>
             <div class="badge badge-outline my-4 p-4"> category : ${data.category}</div>
             </div>
           </div>
